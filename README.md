@@ -4,7 +4,11 @@ End.  This is about the Data Dashboard.
 ## UX
 
 The website is for users to give an idea on how much they spend on petrol for
-a particular year (e.g. 2018).  Breakdowns include by Company.
+a particular year (e.g. 2018).  
+
+As a user, I want to perform an action so that I can achieve a goal.
+
+Breakdowns include by Company.
 
 Wireframes
 
@@ -12,7 +16,7 @@ Wireframes
 
 Features include selecting a chart.
 
-
+Options include Downloading a PDF file, so that it can be printed.
 
 ## Technologies
 
@@ -30,4 +34,22 @@ CSS - This project uses
 
 ## Testing
 
-When I click on each link, it should go to the correct destination.  
+When I click on each link, it should go to the correct destination. 
+
+## Deployment
+
+I will deploy the project to GitHub Pages.
+
+## Credits
+
+### Content
+
+Ideas taken from www.w3schools.com
+
+### Media
+
+Have taken the data from my recordings of visits to petrol stations.
+
+### Acknowledgements
+
+To be advised
