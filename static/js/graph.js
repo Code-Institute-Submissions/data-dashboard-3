@@ -28,15 +28,15 @@ function makeGraphs(error, petrolData) {
 
 function show_spend_by_company(ndx) {
 
-    var dim = ndx.dimension(dc.pluck("company"));
-    var group = dim.group();
+    var dim = ndx.dimension(dc.pluck('company'));
+    var total_spend_by_company = dim.group();
 
     dc.barChart("#spend-by-company")
         .width(350)
         .height(250)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(dim)
-        .group(group)
+        .group(total_spend_by_company)
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
