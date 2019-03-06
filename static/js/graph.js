@@ -1,6 +1,6 @@
 queue()
 
-    .defer(d3.json, "data/petrol.json")
+    .defer(d3.json,"data/petrol.json")
     .await(makeGraphs);
 
 // Function to Make Graphs
