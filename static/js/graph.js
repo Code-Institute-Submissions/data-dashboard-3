@@ -10,17 +10,17 @@ function makeGraphs(error, petrolData) {
     // Define Variable
     var ndx = crossfilter(petrolData);
 
-
-    // Parse Date
     var parseDate = d3.time.format("%d/%m/%Y").parse;
         petrolData.forEach(function (d) {
             d.date = parseDate(d.date);
+            
         });
-
+    
     // Show Graphs
     
     show_spend_by_company(ndx);
     show_spend_by_month(ndx);
+    
     dc.renderAll();
 
 }
