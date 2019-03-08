@@ -35,7 +35,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* Download Links */
+/* Styles for Download Links */
 
 .download-pdf {
     color: #676767;
@@ -50,4 +50,15 @@ body {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+/* Styles for Links */
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e84610;
 }
