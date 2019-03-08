@@ -60,5 +60,16 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #e84610;
+    color: purple;
+}
+
+/* Navbar Styles */
+.navbar-header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.navbar-nav {
+    background-color: lightyellow;
+    padding: 10px;
 }
