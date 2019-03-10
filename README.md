@@ -10,13 +10,13 @@ As a user, I want to perform an action so that I can achieve a goal.
 
 Breakdowns include by Company.
 
-Wireframes
+Wireframes include line charts, bar charts and scatter charts.
 
 ## Features
 
 Features include selecting a chart.
 
-Options include Downloading a PDF file, so that it can be printed.
+Downloading a PDF file, so that it can be printed.  This includes paperless versions such as One Note and XPS (XML Paper Specification).
 
 ## Technologies
 
@@ -29,6 +29,8 @@ This project uses JavaScript to access D3, Crossfilter, DC and Queue.
     https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js
 
 This project uses Bootstrap for the Navbar.  Font Awesome is being used.
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 CSS - This project uses 
 
