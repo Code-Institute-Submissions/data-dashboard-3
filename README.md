@@ -4,11 +4,12 @@ End.  This is about the Data Dashboard.
 ## UX
 
 The website is for users to give an idea on how much they spend on petrol for
-a particular year (e.g. 2018).  
+a particular year (e.g. 2018). 
 
-As a user, I want to perform an action so that I can achieve a goal.
-
-Breakdowns include by Company.
+As a user, I want to see how much I spend on petrol for a particular year
+(e.g. 2018).  Breakdowns are available and they include by Company, Month, Litres
+and Miles.  For example, I could download a PDF File (e.g. petrol-spend-by-company.pdf) to
+see how much money I have spent by company.  Data Tables are available.
 
 Wireframes include line charts, bar charts and scatter charts.
 
@@ -30,13 +31,15 @@ This project uses JavaScript to access D3, Crossfilter, DC and Queue.
 
 This project uses Bootstrap for the Navbar.  Font Awesome is being used.
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+CSS - This project uses external style sheets.
 
-CSS - This project uses 
+    https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 
 ## Testing
 
-When I click on each link, it should go to the correct destination. 
+When I click on each link, it should go to the correct destination. If it
+is a link to a PDF file, it should go to the correct PDF file in a new window,
+without leaving the web page.
 
 ## Deployment
 
@@ -54,4 +57,4 @@ Have taken the data from my recordings of visits to petrol stations.
 
 ### Acknowledgements
 
-To be advised
+Mentor - Olawaseun Owonikoko
