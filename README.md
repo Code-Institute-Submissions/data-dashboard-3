@@ -41,6 +41,8 @@ When I click on each link, it should go to the correct destination. If it
 is a link to a PDF file, it should go to the correct PDF file in a new window,
 without leaving the web page.
 
+Resized the width of the browser window to see what it looked like.
+
 ## Deployment
 
 I will deploy the project to GitHub Pages.
@@ -49,7 +51,7 @@ I will deploy the project to GitHub Pages.
 
 ### Content
 
-Ideas taken from www.w3schools.com
+Visited www.w3schools.com for ideas on Bootstrap, Anchor Tags.
 
 ### Media
 
