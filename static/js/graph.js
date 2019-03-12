@@ -37,6 +37,7 @@ function show_spend_by_company(ndx) {
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(dim)
         .group(total_spend_by_company)
+        .yAxisLabel("Spend")
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal)
@@ -55,14 +56,15 @@ function show_spend_by_month(ndx) {
     var minDate = date_dim.bottom(1)[0].date;
     var maxDate = date_dim.top(1)[0].date;
         
-    // Create Line Chart
+    // Create Bar Chart
         
-    dc.lineChart("#spend-by-month")
+    dc.barChart("#spend-by-month")
             .width(1000)
             .height(300)
             .margins({top: 10, right: 50, bottom: 30, left: 50})
             .dimension(date_dim)
             .group(total_spend_by_month)
+            .yAxisLabel("Spend")
             .transitionDuration(500)
             .x(d3.time.scale().domain([minDate, maxDate]))
             .xAxisLabel("Month")
