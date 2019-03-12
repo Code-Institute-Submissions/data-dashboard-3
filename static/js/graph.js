@@ -1,6 +1,6 @@
 queue()
 
-    .defer(d3.json,"data/petrol.json")
+    .defer(d3.csv,"data/petrol.csv")
     .await(makeGraphs);
 
 // Function to Make Graphs
@@ -32,7 +32,7 @@ function show_spend_by_company(ndx) {
     var total_spend_by_company = dim.group().reduceSum(dc.pluck('spend'));
 
     dc.barChart("#spend-by-company")
-        .width(350)
+        .width(650)
         .height(250)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(dim)
