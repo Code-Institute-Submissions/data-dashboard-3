@@ -79,7 +79,16 @@ function show_spend_by_litres(ndx) {
     
     // Define Variables
     
-    // Variable - Colors for Company
+    /* Variable - Colors for Company
+    
+    BP is Red in Colour
+    Sainsburys is Green in Colour
+    Esso is Blue in Colour
+    Applegreen is Orange in Colour
+    Shell is Pink in Colour
+    
+    */
+    
     var companyColors = d3.scale.ordinal()
         .domain(["BP", "Sainsburys", "Esso", "Applegreen", "Shell"])
         .range(["red", "green", "blue", "orange", "pink"]);
@@ -89,7 +98,6 @@ function show_spend_by_litres(ndx) {
     var litres_dim = ndx.dimension(dc.pluck('litres'));
     var min_litres = litres_dim.bottom(1)[0].litres;
     var max_litres = litres_dim.top(1)[0].litres;
-    
     var spend_dim = ndx.dimension(function (d) {
             return [d.litres, d.spend, d.company];
         });
@@ -105,6 +113,7 @@ function show_spend_by_litres(ndx) {
         .symbolSize(8)
         .clipPadding(10)
         .xAxisLabel("Litres")
+        .yAxisLabel("Spend")
         .title(function(d) {
             return d.key[2] + " spent " + d.key[1];
         })
@@ -123,7 +132,16 @@ function show_spend_by_miles(ndx) {
     
     // Define Variables
     
-    // Variable - Colors for Company
+    /* Variable - Colors for Company
+    
+    BP is Red in Colour
+    Sainsburys is Green in Colour
+    Esso is Blue in Colour
+    Applegreen is Orange in Colour
+    Shell is Pink in Colour
+    
+    */
+    
     var companyColors = d3.scale.ordinal()
         .domain(["BP", "Sainsburys", "Esso", "Applegreen", "Shell"])
         .range(["red", "green", "blue", "orange", "pink"]);
@@ -146,6 +164,7 @@ function show_spend_by_miles(ndx) {
         .brushOn(false)
         .symbolSize(8)
         .clipPadding(10)
+        .yAxisLabel("Spend")
         .xAxisLabel("Miles")
         .title(function(d) {
             return d.key[2] + " spent " + d.key[1];
