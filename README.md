@@ -11,11 +11,11 @@ As a user, I want to see how much I spend on petrol for a particular year
 and Miles.  For example, I could download a PDF File (e.g. petrol-spend-by-company.pdf) to
 see how much money I have spent by company.  Data Tables are available.
 
-Wireframes include line charts, bar charts and scatter charts.
+Wireframes include bar charts and scatter charts.
 
 ## Features
 
-Features include selecting a chart.
+Features include bar charts and scatter charts.
 
 Downloading a PDF file, so that it can be printed.  This includes paperless versions such as One Note and XPS (XML Paper Specification).
 
