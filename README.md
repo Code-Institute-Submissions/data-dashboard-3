@@ -9,15 +9,29 @@ a particular year (e.g. 2018).
 As a user, I want to see how much I spend on petrol for a particular year
 (e.g. 2018).  Breakdowns are available and they include by Company, Month, Litres
 and Miles.  For example, I could download a PDF File (e.g. petrol-spend-by-company.pdf) to
-see how much money I have spent by company.  Data Tables are available.
+see how much money I have spent by company (e.g. BP).  Hovering a download icon lets
+the user know what the PDF file is (e.g. Petrol Spend By Company).  The PDF files were originally
+created from Microsoft Excel.
 
-Wireframes include bar charts and scatter charts.
+Wireframes include bar charts and scatter plots.
 
 ## Features
 
-Features include bar charts and scatter charts.
+Features include bar charts and scatter plots.
 
-Downloading a PDF file, so that it can be printed.  This includes paperless versions such as One Note and XPS (XML Paper Specification).
+Bar Charts for Petrol Spend by Company and Petrol Spend by Month.
+Scatter Plots for Petrol Spend by Litres and Petrol Spend by Miles.
+
+Colour Coding for Scatter Plots
+
+BP is Red in Colour
+Sainsburys is Green in Colour
+Esso is Blue in Colour
+Applegreen is Orange in Colour
+Shell is Pink in Colour
+
+Downloading a PDF file, so that it can be printed.  
+This includes paperless versions such as One Note and XPS (XML Paper Specification).
 
 ## Technologies
 
@@ -29,7 +43,7 @@ This project uses JavaScript to access D3, Crossfilter, DC and Queue.
     https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js
     https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js
 
-This project uses Bootstrap for the Navbar.  Font Awesome is being used.
+This project uses Bootstrap for the Navbar.  Font Awesome is being used for the download icons.
 
 CSS - This project uses external style sheets.
 
@@ -45,7 +59,7 @@ Resized the width of the browser window to see what it looked like.
 
 ## Deployment
 
-I will deploy the project to GitHub Pages.
+The project is deployed to GitHub Pages.
 
 ## Credits
 
