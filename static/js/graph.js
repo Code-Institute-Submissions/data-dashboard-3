@@ -34,8 +34,8 @@ function show_spend_by_company(ndx) {
     var total_spend_by_company = dim.group().reduceSum(dc.pluck('spend'));
 
     dc.barChart("#spend-by-company")
-        .width(650)
-        .height(250)
+        .width(800)
+        .height(400)
         .margins({top: 10, right: 50, bottom: 30, left: 50})
         .dimension(dim)
         .group(total_spend_by_company)
